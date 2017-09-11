@@ -183,7 +183,22 @@ cursor: pointer;
     #about-sec .social-icon a > img {
         padding:5px;
     }
-
+.wechatCode{
+    width: 150px;
+    height: 150px;
+    display: none;
+    position: absolute;
+    top:50px;
+    left: -40px;
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.2);
+    padding: 0!important;
+}
+.wechat{
+    position: relative;
+}
+.wechat:hover .wechatCode{
+    display: block;
+}
 
 /* =============================================================
   SKILL SECTION STYLES ( easy-pie-chart css)
