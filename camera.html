@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
     <title>camera</title>
 </head>
 <body>
-好的
+<!--video用于显示媒体设备的视频流，自动播放-->
+<video id="video" autoplay style="width: 480px;height: 320px;"></video>
+<!--拍照按钮-->
+<div><button id="capture">拍照</button></div>
+<!--绘制video截图-->
+<canvas id="canvas" width="480" height="320"></canvas>
+<script>
+//    访问用户媒体设备的兼容方法
+    function getUserMedia(constraints, success, error) {
+        if (navigator.mediaDevices.getUserMedia){
+//            最新的标准API
+            navigator.mediaDevices.getUserMedia(constraints).then(success).catch(error);
+            console.log('最新的标准API')
+        }else if(navigator.webkitGetUserMedia){
+//            webkit核心浏览器
+            navigator.webkitGetUserMedia(constraints, success, error);
+            console.log('webkit核心浏览器')
+        }else if(navigator.mozGetUserMedia) {
+//            Firefox浏览器
+            navigator.mozGetUserMedia(constraints, success, error);
+        }else if (navigator.getUserMedia) {
+//            旧版浏览器
+            navigator.getUserMedia(constraints, success, error);
+        }
+
+    }
+    var video = document.getElementById("video");
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext("2d");
+
+//    成功的回调函数
+    function success(stream) {
+//        兼容的webkit核心浏览器
+        var CompatibleURL = window.URL || window.webkitURL;
+//        将视频流设置为video元素的源
+        video.src = CompatibleURL.createObjectURL(stream);
+        video.play();
+    }
+//    异常的回调函数
+    function error(error) {
+        console.log('访问用户媒体设备失败：', error.name, error.message);
+    }
+    if(navigator.mediaDevices.getUserMedia || navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia){
+//        调用用户摄像头
+        getUserMedia( { video: { width: 480, height: 320 } }, success, error);
+    }else {
+        console.log('你的浏览器不支持')
+    }
+//    绑定拍照按钮
+    document.getElementById("capture").addEventListener("click", function () {
+        context.drawImage(video, 0, 0, 480, 320);//将video画面在canvas上绘制出来
+    })
+
+</script>
 </body>
 </html>
