@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/check.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -300,7 +300,7 @@
       <workItem from="1505053329205" duration="2623000" />
       <workItem from="1505135482490" duration="234000" />
       <workItem from="1505142468072" duration="1543000" />
-      <workItem from="1506502542940" duration="102000" />
+      <workItem from="1506502542940" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="我的个人中心">
       <created>1505053388619</created>
@@ -362,10 +362,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4584000" />
+    <option name="totallyTimeSpent" value="4850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1932" height="1066" extended-state="0" />
+    <frame x="-8" y="22" width="1932" height="1066" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13991553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -705,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/check.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding />
         </state>
       </provider>
