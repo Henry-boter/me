@@ -4,7 +4,7 @@
 }
 html,body{
     font-size: 50px;
-    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif; /*使用无衬线字体*/
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
 }
 header{
     font-size: 18px;
@@ -156,6 +156,7 @@ footer{
 .submit{
     font-size: 18px;
     color: #fff;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
     width: 40%;
     margin-left: 30%;
     margin-bottom: 0.4rem;
