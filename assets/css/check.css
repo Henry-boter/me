@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-size: 50px;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-user-select: none; /*禁止选中文本*/
+    user-select: none;
+}
+header{
+    font-size: 18px;
+    text-align: center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #1bcfc6;
+    color: #ffffff;
+}
+.content{
+    /*position: relative;*/
+}
+.top{
+    background-color: #1bcfc6;
+    color: #ffffff;
+    text-align: center;
+    width: 90%;
+    margin: 0.5rem auto 0.2rem;
+    border-radius: 0.1rem;
+    box-shadow: 1px 1px 10px rgba(27, 207, 198, 0.5);
+}
+.title{
+    font-size: 20px;
+    padding-top: 0.4rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.date{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 0.8rem;
+}
+.teacher{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 0.8rem;
+
+}
+.student{
+    width: 90%;
+    margin:  auto;
+}
+.tips{
+    text-align: center;
+    font-size: 12px;
+    color: #7c7c7c;
+    margin-bottom: 0.3rem;
+}
+.caption{
+    font-size: 20px;
+    position: relative;
+    height: 1.2rem;
+    color: #333;
+}
+.captionName{
+    position: absolute;
+    left: 0.2rem;
+}
+.captionTabs{
+    position: absolute;
+    right: 0.4rem;
+    text-align: center;
+}
+.captionTabs i {
+    font-size: 12px;
+    font-style: normal;
+    color: #7c7c7c;
+}
+/*选择状态*/
+.studentItem{
+    position: relative;
+    background-color: #f1f1f1;
+    height: 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.studentName{
+    position: absolute;
+    top:0.3rem;
+    left: 0.2rem;
+    font-size: 0.4rem;
+    color: #202020;
+}
+.switch {
+    position: absolute;
+    top: 8px;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    right: 0.2rem;
+}
+
+.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.submit{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 0.4rem;
+    -webkit-appearance:none;
+    border: none;
+    padding:0.15rem 0;
+    border-radius: 1rem;
+    background-color: #1bcfc6;
+    box-shadow: 1px 1px 10px rgba(27, 207, 198, 0.5);
+}
+.submit:active{
+    box-shadow: 0px 0px 5px rgba(27, 207, 198, 0.5);
+    transform: translateY(2px);
+}
