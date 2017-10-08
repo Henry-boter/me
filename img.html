@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>相册</title>
+	<!-- <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script> -->
+	<style>
+		body{
+			margin: 0;
+			padding: 0
+		}
+		.gallery{
+			width: 100vw;
+			display: flex;
+			flex-flow: row wrap;
+		}
+		.gallery .item{
+			flex: 1
+		}
+		.gallery .item img{
+			width: 33vw
+		}
+		.gallery.preview .item{
+			display: flex;
+			margin: auto;
+		}
+		.gallery.preview{
+			touch-action:none;
+		}
+		.gallery.preview .item img{
+			max-width: 100vw;
+			max-height: 100vh;
+			width: initial;
+		}
+	</style>
+</head>
+<body>
+	<div class="gallery" style="transform: translateX(0px);">
+		<div class="item"><img src="images/1.jpg" alt="1"></div>
+		<div class="item"><img src="images/2.jpg" alt="2"></div>
+		<div class="item"><img src="images/3.jpg" alt="3"></div>
+		<div class="item"><img src="images/4.jpg" alt="4"></div>
+		<div class="item"><img src="images/5.jpg" alt="5"></div>
+		<div class="item"><img src="images/6.jpg" alt="6"></div>
+	</div>
+	<script>
+		var $gallery = document.querySelector(".gallery");
+		$gallery.addEventListener("click",function (e) {
+			//监听单击事件，切换相册的css class来实现预览和普通模式
+			var classList = $gallery.classList;
+			var css_preview = "preview";
+			if (classList.contains(css_preview)) {
+				classList.remove(css_preview)
+				//在非预览模式下，相册的宽度为100vw
+				$gallery.style.width = 100 + "vw"
+			}else{
+				classList.add(css_preview);
+				//在预览模式下，所有图片横着排成一排，相册的总宽度为每一个项目长度总和
+				var itemsLength = document.getElementsByClassName('item').length;
+				$gallery.style.width = 100 * itemsLength+"vw"
+			}
+		})
+		$gallery.addEventListener("touchstart", function (e) {
+			//开始触摸时，记住当前手指的位置
+			startOffsetX = e.changedTouches[0].pageX;
+			console.log("开始："+startOffsetX);
+			//手指滑动的时候，静止动画
+			$gallery.classList.remove("animation");
+		})
+		var currentTranX;
+		$gallery.addEventListener("touchmove", function (e) {
+			isTtouchstart = true;
+			//计算手指水平移动量
+			var dx = e.changedTouches[0].pageX-startOffsetX;
+			//调用move方法，设置galley元素的transform，移动图片
+			move(currentTranX + dx);
+		})
+		function move(dx) {
+			console.log(dx);
+			$gallery.style.transform = "translate(" + dx + "px, 0px)";
+			// $gallery.style.width = 100 * itemsLength+"vw";
+		}
+		var isTtouchstart = false;
+		$gallery.addEventListener("touchend", function (e) {
+			if (isTtouchstart) {
+				//在移动图片的时候，需要动画，动画采用css3的transition实现
+				$gallery.classList.add("animation");
+				var dx = e.changedTouches[0].pageX-startOffsetX;
+				currentTranX = dx;
+				//如果偏移量超过gallery宽度的一半
+				var width = document.getElementsByClassName("item")[0].width
+				if (Math.abs(dx) > width / 2) {
+					//处理临界值
+					if(currentTranX <= 0 && currentTranX > -width * itemsLength){
+						if (dx > 0) {					//如果手指向右滑动
+							if (currentTranX < 0) {		//如果图片不是显示第一张
+								currentTranX = currentTranX + width;
+							}
+						//如果手指向右滑动，并且当前图片不是显示最后一张						
+						}else if(currentTranX > -width * (itemsLength - 1)){
+							currentTranX = currentTranX-width;
+						}
+					}
+				}
+				//如果未超出图片宽度的一半，拖拽停止，将图片的位置还原
+				//如果超出了图片宽度的一半，将切换到上一张或下一张图片
+				move(currentTranX);
+			}
+			isTtouchstart = false;
+
+		});
+	</script>
+</body>
+</html>
