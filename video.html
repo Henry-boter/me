@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>带字幕的视频播放器</title>
+</head>
+<body>
+	<!-- 定义一个video，用于播放视频 -->
+	<video width="600" poster="images/video.jpg">
+		<!-- 指定视频格式和视频地址 -->
+		<source type="video/mp4" src="video/video.mp4">
+		<!-- 指定视频字幕 -->
+		<track kind="subtitles" src="assets/data/webvtt.vtt" default>
+	</video>
+	<div class="ctl">
+		<input type="button" value="播放">
+		<input type="button" value="快进(x1)">
+		<input type="button" value="静音">
+	</div>
+</body>
+</html>
