@@ -17,5 +17,33 @@
 		<input type="button" value="快进(x1)">
 		<input type="button" value="静音">
 	</div>
+	<script>
+		//获取播放器元素
+		var vd = document.querySelector('video');
+		//获取播放器的所有控制按钮
+		var btns = document.querySelectorAll('.ctl input');
+		//为播放按钮添加单击事件
+		btns[0].onclick = function () {
+			if (vd.paused) {
+				vd.play();
+				this.value = '暂停';
+			} else {
+				vd.pause();
+				this.value = '播放';
+			}
+		}
+		btns[1].onclick = function () {
+			if (vd.playbackRate >= 8) {
+				vd.playbackRate = 1;
+			} else {
+				vd.playbackRate *=2;
+			}
+			this.value = '快进（x' + vd.playbackRate + '）'
+		}
+		btns[2].onclick = function () {
+			vd.muted = !vd.muted;
+			this.value = vd.muted ? '取消静音' : '静音';
+		}
+	</script>
 </body>
 </html>
