@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d29ec7-6d7a-42c9-a86e-9993ab59c0f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/20171206130429.80cc5d4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/CIKE-QRcode.e4e1ae4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/activity.02ec9ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/banner.fef1919.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/btn-activity.0eeb369.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/btn-onlineClass.e2b502f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/btn-price.df80c6c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/btn-yuyue.81445ca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/buttom_logo.dcb215d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/daoxueke.2e63f05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/nilianke.57237ed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/online_class.ea0c598.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/videoImg.d44cd99.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/welcome.039b4c0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baidu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.d0a3c92707b76bd1666dcba912416f65.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.d0a3c92707b76bd1666dcba912416f65.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.2950f2ba004c29833973.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.2950f2ba004c29833973.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.a12440b9ce0f9622a010.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.a12440b9ce0f9622a010.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/20171206130429.033d0ae.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/activity.83201e5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/banner.6182b41.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/daoxueke.b43d919.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/online_class.546a2ae.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.b04dc1c7f4ee5228ddb49b405a2497fc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.b04dc1c7f4ee5228ddb49b405a2497fc.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.771197209c216751a6c2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.771197209c216751a6c2.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" afterPath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,11 +43,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.9c3eacfb4a5cd3325b9c.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="baidu.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baidu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -149,7 +148,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="1940" />
@@ -170,8 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,7 +298,8 @@
       <workItem from="1513073699055" duration="422000" />
       <workItem from="1513159822964" duration="1022000" />
       <workItem from="1521531533961" duration="1240000" />
-      <workItem from="1522145021754" duration="222000" />
+      <workItem from="1522145021754" duration="980000" />
+      <workItem from="1522231172837" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="我的个人中心">
       <created>1505053388619</created>
@@ -406,16 +406,23 @@
       <option name="project" value="LOCAL" />
       <updated>1513160822575</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="gongsi">
+      <created>1522145285072</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1522145285072</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12674000" />
+    <option name="totallyTimeSpent" value="13525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1940" height="1066" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10725552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10748156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -456,19 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -692,17 +686,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personalcenter.html" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -797,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,10 +807,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu.html">
+    <entry file="file://$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
