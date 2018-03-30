@@ -2,28 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d29ec7-6d7a-42c9-a86e-9993ab59c0f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.fb66fe02ff650785e65579a9b24b08a1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.fb66fe02ff650785e65579a9b24b08a1.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.b5a211bccbac757e4307.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.b5a211bccbac757e4307.js.map" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.b04dc1c7f4ee5228ddb49b405a2497fc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.b04dc1c7f4ee5228ddb49b405a2497fc.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.d0a3c92707b76bd1666dcba912416f65.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.d0a3c92707b76bd1666dcba912416f65.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/20171206130429.80cc5d4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/CIKE-QRcode.e4e1ae4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/activity.02ec9ad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner.fef1919.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/daoxueke.2e63f05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/nilianke.57237ed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/online_class.ea0c598.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/videoImg.d44cd99.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.2950f2ba004c29833973.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.2950f2ba004c29833973.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.a12440b9ce0f9622a010.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.a12440b9ce0f9622a010.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baidu.html" afterPath="$PROJECT_DIR$/baidu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" afterPath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" />
@@ -43,7 +21,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
+            <state relative-caret-position="250">
               <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -59,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/baidu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -151,6 +129,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/layout.html" />
+        <option value="$PROJECT_DIR$/baidu.html" />
       </list>
     </option>
   </component>
@@ -312,7 +291,9 @@
       <workItem from="1521531533961" duration="1240000" />
       <workItem from="1522145021754" duration="980000" />
       <workItem from="1522231172837" duration="217000" />
-      <workItem from="1522314729014" duration="317000" />
+      <workItem from="1522314729014" duration="1374000" />
+      <workItem from="1522372614326" duration="622000" />
+      <workItem from="1522381842623" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="我的个人中心">
       <created>1505053388619</created>
@@ -433,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522231378313</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="gongsi">
+      <created>1522315073929</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1522315073929</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13966000" />
+    <option name="totallyTimeSpent" value="15663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -800,16 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.2950f2ba004c29833973.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.2950f2ba004c29833973.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
+        <state relative-caret-position="250">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -820,14 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.9c3eacfb4a5cd3325b9c.js" />
     <entry file="file://$PROJECT_DIR$/camera.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -839,7 +814,7 @@
     <entry file="file://$PROJECT_DIR$/baidu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
