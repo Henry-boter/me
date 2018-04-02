@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/baidu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="63" lean-forward="true" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -292,7 +292,7 @@
       <workItem from="1522314729014" duration="1374000" />
       <workItem from="1522372614326" duration="622000" />
       <workItem from="1522381842623" duration="428000" />
-      <workItem from="1522637063444" duration="86000" />
+      <workItem from="1522637063444" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="我的个人中心">
       <created>1505053388619</created>
@@ -448,11 +448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522637124503</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="gongsi">
+      <created>1522637179540</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1522637179540</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16159000" />
+    <option name="totallyTimeSpent" value="16218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -841,7 +848,7 @@
     <entry file="file://$PROJECT_DIR$/baidu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="63" lean-forward="true" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>
