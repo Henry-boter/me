@@ -8,7 +8,7 @@
     <meta content="telephone=no" name="format-detection" />
     <title>微信video标签全屏无法退出bug</title>
     <!-- 调试用 -->
-    <script type="text/javascript" src="http://10.12.8.161:8081/client/#anonymous"></script>
+    <!--<script type="text/javascript" src="http://10.12.8.161:8081/client/#anonymous"></script>-->
 </head>
 <body>
 	<p>安卓(android)微信里面video播放视频，会被强制全屏，播放完毕后还有腾讯推荐的广告视频，非常讨厌。。
@@ -35,6 +35,8 @@ $("body").click(function() {
 var aud = document.getElementById("msgr");
 video1.addEventListener('ended', function() {
     aud.play();
+    document.webkitCancelFullScreen();
+    document.exitFullscreen();
     setTimeout(function(){
         var video = $('#vv');
         video.addClass('close');
