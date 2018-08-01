@@ -5,6 +5,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
     <title>直播</title>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
     <script src="//imgcache.qq.com/open/qcloud/video/vcplayer/TcPlayer-2.2.2.js" charset="utf-8"></script>
 </head>
 <body>
@@ -27,10 +33,12 @@
 			// "m3u8": "http://28821.liveplay.myqcloud.com/live/28821_8cc35ade93d411e892905cb9018cf0d4_550.m3u8", //请替换成实际可用的播放地址
 			"mp4": "http://1256993030.vod2.myqcloud.com/d520582dvodtransgzp1256993030/7732bd367447398157015849771/v.f30.mp4",
 			"autoplay" : true,      //iOS下safari浏览器，以及大部分移动端浏览器是不开放视频自动播放这个能力的
+            "live": false,
 			"coverpic" : "http://cikeenglish.oss-cn-shenzhen.aliyuncs.com/activity/201807314646",
 			"width" :  '480',//视频的显示宽度，请尽量使用视频分辨率宽度
 			"height" : '320',//视频的显示高度，请尽量使用视频分辨率高度
 			"h5_flv": true,
+            "flash": true,
 			"wording":  {
 			    2032: "请求视频失败，请检查网络",
 			    2048: "请求m3u8文件失败，可能是网络错误或者跨域问题"
